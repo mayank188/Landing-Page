@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
+import logoTransparent from '../../assets/images/logo-transparent.png'
 import { NAV_DESKTOP_LINKS, NAV_MOBILE_LINKS, SOCIAL_LINKS } from '../../constants/nav.js'
 
 export default function Header() {
@@ -27,7 +28,7 @@ export default function Header() {
       <div className="site-header-bar max-w-7xl mx-auto px-4 sm:px-6 py-3 md:py-5 flex items-center justify-between gap-3">
         <div className="flex items-center gap-2 sm:gap-4 min-w-0">
           <div className="brand-logo-wrap brand-logo-wrap--nav">
-<img src="/src/assets/images/logo-transparent.png" alt="ShopsSetu Logo" />
+            <img src={logoTransparent} alt="ShopsSetu Logo" className="h-10 w-10 object-contain" />
           </div>
 
           <h3 className="text-xl sm:text-2xl md:text-4xl font-black tracking-tight text-gradient truncate">

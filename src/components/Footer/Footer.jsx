@@ -1,5 +1,6 @@
 ﻿import { useId, useMemo } from 'react'
 import { motion } from 'framer-motion'
+import logoTransparent from '../../assets/images/logo-transparent.png'
 import {
   ArrowRight,
   AtSign,
@@ -206,7 +207,7 @@ export default function Footer() {
               <div className="grid gap-6 lg:grid-cols-12">
                 <div className="space-y-4 lg:col-span-4">
                   <div className="flex items-center gap-3">
-                    <img src="/src/assets/images/logo-transparent.png" alt="ShopsSetu" className="h-12 w-12 object-contain" />
+                    <img src={logoTransparent} alt="ShopsSetu" className="h-12 w-12 object-contain" />
                     <div>
                       <div className="text-2xl font-semibold text-white">ShopsSetu</div>
                       <p className="mt-1 max-w-[280px] text-sm text-slate-400">

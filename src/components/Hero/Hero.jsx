@@ -1,3 +1,5 @@
+import heroImage from '../../assets/images/hero-image.png'
+
 export default function Hero() {
   return (
     <section className="relative pt-12 pb-20 overflow-hidden bg-grid">
@@ -57,7 +59,7 @@ export default function Hero() {
 
           <div className="relative w-full h-full bg-zinc-900 border border-white/10 rounded-[3rem] overflow-hidden shadow-[0_0_120px_-20px_rgba(59,130,246,0.3)] transition-all duration-1000 ease-in-out group">
             <img
-              src="/src/assets/images/hero-image.png"
+              src={heroImage}
               alt="Hero"
               className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[2000ms]"
             />
